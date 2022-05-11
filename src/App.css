@@ -1,0 +1,118 @@
+body{
+    font-size: 16px;
+    color: #272727;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding-top: 1rem;
+}
+
+.search-box{
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: 0;
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+/* Table component CSS */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    border-right: 0;
+    width: 8%;
+    color: #272727;
+}
+
+tr th:last-child, tr td:last-child{
+    text-align: center;
+}
+
+tr td:nth-child(4), tr td:nth-child(4) input{
+    text-transform: capitalize;
+}
+
+td input{
+    font-size: 15px;
+}
+
+.actionButton{
+    font-size: 18px;
+    background: transparent;
+    border: 0;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.saveButton{
+    color: #42ac46;
+}
+
+.deleteButton{
+    color: #ff5071;
+}
+
+/* Pagination component CSS */
+
+.footer-controls{
+    display: flex;
+    align-items: center;
+    padding: .25rem .75rem;
+}
+
+.pagination-ul{
+    display: flex;
+    list-style: none;
+    padding-left: 5rem;
+}
+
+.page-number{
+    padding: 0 .9rem;
+}
+
+.page-number-link{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #0084ff;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #1990ff;
+    cursor: pointer;
+}
+
+.page-number-link-active{
+    color: #1990ff;
+    background: transparent;
+}
+
+.page-number-link:disabled{
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.delete-user{
+    background: #ff5071;
+    color: #fff;
+    border: 0;
+    padding: 0.65rem 1rem;
+    border-radius: 20px;
+    font-size: 15px;
+}
